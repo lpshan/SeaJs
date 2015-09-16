@@ -1,0 +1,231 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'spm-build', '-g' ]
+2 info using npm@2.12.1
+3 info using node@v0.12.7
+4 verbose node symlink /usr/local/bin/node
+5 verbose install initial load of /usr/local/lib/package.json
+6 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+7 silly cache add args [ 'spm-build', null ]
+8 verbose cache add spec spm-build
+9 silly cache add parsed spec { raw: 'spm-build',
+9 silly cache add   scope: null,
+9 silly cache add   name: 'spm-build',
+9 silly cache add   rawSpec: '',
+9 silly cache add   spec: '*',
+9 silly cache add   type: 'range' }
+10 silly addNamed spm-build@*
+11 verbose addNamed "*" is a valid semver range for spm-build
+12 silly addNameRange { name: 'spm-build', range: '*', hasData: false }
+13 silly mapToRegistry name spm-build
+14 silly mapToRegistry using default registry
+15 silly mapToRegistry registry https://registry.npmjs.org/
+16 silly mapToRegistry uri https://registry.npmjs.org/spm-build
+17 verbose addNameRange registry:https://registry.npmjs.org/spm-build not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/spm-build
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 11:16:00
+21 verbose request id 5db9bf04290bda74
+22 verbose etag "BWG7BRACJGKOD4U44TJHHVDZ4"
+23 http request GET https://registry.npmjs.org/spm-build
+24 http 304 https://registry.npmjs.org/spm-build
+25 silly get cb [ 304,
+25 silly get   { date: 'Wed, 16 Sep 2015 03:16:00 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     'cache-control': 'max-age=60',
+25 silly get     etag: '"BWG7BRACJGKOD4U44TJHHVDZ4"',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-hkg6822-HKG',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1442373360.410550,VS0,VE185',
+25 silly get     vary: 'Accept' } ]
+26 verbose etag https://registry.npmjs.org/spm-build from cache
+27 verbose get saving spm-build to /Users/eleme/.npm/registry.npmjs.org/spm-build/.cache.json
+28 silly addNameRange number 2 { name: 'spm-build', range: '*', hasData: true }
+29 silly addNameRange versions [ 'spm-build',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.2.0',
+29 silly addNameRange     '0.3.0',
+29 silly addNameRange     '0.3.1',
+29 silly addNameRange     '0.3.2',
+29 silly addNameRange     '0.3.3',
+29 silly addNameRange     '0.3.4',
+29 silly addNameRange     '0.3.5',
+29 silly addNameRange     '0.3.6',
+29 silly addNameRange     '0.3.7',
+29 silly addNameRange     '0.3.8',
+29 silly addNameRange     '0.3.9',
+29 silly addNameRange     '0.3.10',
+29 silly addNameRange     '0.3.11',
+29 silly addNameRange     '0.3.12',
+29 silly addNameRange     '0.3.13',
+29 silly addNameRange     '0.3.14',
+29 silly addNameRange     '0.3.15',
+29 silly addNameRange     '0.3.16',
+29 silly addNameRange     '0.3.17',
+29 silly addNameRange     '0.3.18',
+29 silly addNameRange     '0.3.19',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.0.3',
+29 silly addNameRange     '1.0.4',
+29 silly addNameRange     '1.0.5',
+29 silly addNameRange     '1.0.6',
+29 silly addNameRange     '1.0.7',
+29 silly addNameRange     '1.0.8',
+29 silly addNameRange     '0.4.0-rc',
+29 silly addNameRange     '0.4.0-rc.1',
+29 silly addNameRange     '0.4.0-rc.2',
+29 silly addNameRange     '0.4.0-rc.3',
+29 silly addNameRange     '0.4.0-rc.4',
+29 silly addNameRange     '0.4.0-rc.5',
+29 silly addNameRange     '0.4.0-rc.6',
+29 silly addNameRange     '0.4.0',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.1.1',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.2.2',
+29 silly addNameRange     '1.2.3',
+29 silly addNameRange     '0.4.1',
+29 silly addNameRange     '1.3.0',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '0.1.0-a1',
+29 silly addNameRange     '0.2.1-a1',
+29 silly addNameRange     '0.3.0-a1' ] ]
+30 silly addNamed spm-build@1.3.2
+31 verbose addNamed "1.3.2" is a plain semver version for spm-build
+32 silly cache afterAdd spm-build@1.3.2
+33 verbose afterAdd /Users/eleme/.npm/spm-build/1.3.2/package/package.json not in flight; writing
+34 verbose afterAdd /Users/eleme/.npm/spm-build/1.3.2/package/package.json written
+35 silly install resolved [ { name: 'spm-build',
+35 silly install resolved     version: '1.3.2',
+35 silly install resolved     description: 'build tool for spm3.',
+35 silly install resolved     main: 'lib/index',
+35 silly install resolved     dependencies:
+35 silly install resolved      { '6to5': '~3.3.3',
+35 silly install resolved        cdeps: '~0.1.0',
+35 silly install resolved        co: '~4.1.0',
+35 silly install resolved        colorful: '~2.1.0',
+35 silly install resolved        commander: '~2.5.0',
+35 silly install resolved        debug: '~2.1.1',
+35 silly install resolved        exeq: '~2.0.2',
+35 silly install resolved        extend: '~2.0.0',
+35 silly install resolved        father: '~0.13.0',
+35 silly install resolved        flatten: '0.0.1',
+35 silly install resolved        glob: '~4.3.1',
+35 silly install resolved        gnode: '~0.1.1',
+35 silly install resolved        'gulp-6to5': '~2.0.2',
+35 silly install resolved        'gulp-autoprefixer': '~2.1.0',
+35 silly install resolved        'gulp-if': '~1.2.5',
+35 silly install resolved        'gulp-minify-css': '~0.3.12',
+35 silly install resolved        'gulp-mirror': '~0.3.1',
+35 silly install resolved        'gulp-size2': '~0.4.0',
+35 silly install resolved        'gulp-spm': '~0.11.0',
+35 silly install resolved        'gulp-uglify': '~1.0.2',
+35 silly install resolved        'gulp-zip': '~2.0.2',
+35 silly install resolved        mixarg: '~0.2.0',
+35 silly install resolved        multipipe: '~0.1.2',
+35 silly install resolved        rimraf: '~2.2.8',
+35 silly install resolved        'scripts-hook': '~0.1.0',
+35 silly install resolved        'spm-client': '~0.2.7',
+35 silly install resolved        'spm-log': '~0.1.1',
+35 silly install resolved        spmrc: '~1.2.0',
+35 silly install resolved        'step.js': '~2.0.5',
+35 silly install resolved        through2: '~0.6.3',
+35 silly install resolved        thunkify: '~2.1.2',
+35 silly install resolved        uniq: '~1.0.1',
+35 silly install resolved        unyield: '0.0.1',
+35 silly install resolved        'vinyl-fs': '~0.3.13' },
+35 silly install resolved     devDependencies:
+35 silly install resolved      { 'co-mocha': '~1.0.0',
+35 silly install resolved        coveralls: '2',
+35 silly install resolved        'istanbul-harmony': '0',
+35 silly install resolved        jshint: '~2.5.11',
+35 silly install resolved        mocha: '1',
+35 silly install resolved        should: '3',
+35 silly install resolved        sinon: '~1.12.1' },
+35 silly install resolved     repository:
+35 silly install resolved      { type: 'git',
+35 silly install resolved        url: 'git+https://github.com/spmjs/spm-build.git' },
+35 silly install resolved     homepage: 'https://github.com/spmjs/spm-build',
+35 silly install resolved     author: { name: 'chencheng', email: 'sorrycc@gmail.com' },
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     scripts: { test: 'make test' },
+35 silly install resolved     bin: { 'spm-build': 'cli.js' },
+35 silly install resolved     gitHead: 'cc3730c4e3eaf8e6807decd6a9fcabc10a0df835',
+35 silly install resolved     bugs: { url: 'https://github.com/spmjs/spm-build/issues' },
+35 silly install resolved     _id: 'spm-build@1.3.2',
+35 silly install resolved     _shasum: '394e71b833780dfff71024b7c269c9c7cff13883',
+35 silly install resolved     _from: 'spm-build@*',
+35 silly install resolved     _npmVersion: '2.0.0',
+35 silly install resolved     _npmUser: { name: 'sorrycc', email: 'sorrycc@gmail.com' },
+35 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: '394e71b833780dfff71024b7c269c9c7cff13883',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/spm-build/-/spm-build-1.3.2.tgz' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/spm-build/-/spm-build-1.3.2.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install spm-build@1.3.2 into /usr/local/lib
+37 info installOne spm-build@1.3.2
+38 verbose installOne of spm-build to /usr/local/lib not in flight; installing
+39 verbose lock using /Users/eleme/.npm/_locks/spm-build-d27b5a885c757848.lock for /usr/local/lib/node_modules/spm-build
+40 silly install write writing spm-build 1.3.2 to /usr/local/lib/node_modules/spm-build
+41 verbose unbuild lib/node_modules/spm-build
+42 info preuninstall spm-build@1.3.2
+43 info uninstall spm-build@1.3.2
+44 verbose unbuild rmStuff spm-build@1.3.2 from /usr/local/lib/node_modules
+45 silly gentlyRm /usr/local/bin/spm-build is being gently removed
+46 silly gentlyRm verifying /usr/local is an npm working directory
+47 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+48 silly gentlyRm deletion target /usr/local/bin/spm-build is under /usr/local
+49 verbose gentlyRm vacuuming from /usr/local/bin/spm-build up to /usr/local
+50 silly vacuum-fs removing /usr/local/bin/spm-build
+51 silly vacuum-fs quitting because other entries in /usr/local/bin
+52 info postuninstall spm-build@1.3.2
+53 silly gentlyRm /usr/local/lib/node_modules/spm-build is being purged from base /usr/local
+54 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/spm-build
+55 silly vacuum-fs purging /usr/local/lib/node_modules/spm-build
+56 verbose unlock done using /Users/eleme/.npm/_locks/spm-build-d27b5a885c757848.lock for /usr/local/lib/node_modules/spm-build
+57 verbose stack Error: EACCES, unlink '/usr/local/lib/node_modules/spm-build/.jshintignore'
+57 verbose stack     at Error (native)
+58 verbose cwd /Users/eleme/workspace/shan/SeaJs/static/hello
+59 error Darwin 14.5.0
+60 error argv "node" "/usr/local/bin/npm" "install" "spm-build" "-g"
+61 error node v0.12.7
+62 error npm  v2.12.1
+63 error path /usr/local/lib/node_modules/spm-build/.jshintignore
+64 error code EACCES
+65 error errno -13
+66 error Error: EACCES, unlink '/usr/local/lib/node_modules/spm-build/.jshintignore'
+66 error     at Error (native)
+66 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/spm-build/.jshintignore']
+66 error   errno: -13,
+66 error   code: 'EACCES',
+66 error   path: '/usr/local/lib/node_modules/spm-build/.jshintignore' }
+67 error Please try running this command again as root/Administrator.
+68 verbose exit [ -13, true ]
+69 verbose unbuild lib/node_modules/spm-build
+70 info preuninstall spm-build@1.3.2
+71 info uninstall spm-build@1.3.2
+72 verbose unbuild rmStuff spm-build@1.3.2 from /usr/local/lib/node_modules
+73 silly gentlyRm /usr/local/bin/spm-build is being gently removed
+74 silly gentlyRm verifying /usr/local is an npm working directory
+75 silly gentlyRm containing path /usr/local is under npm's control, in /usr/local
+76 silly gentlyRm deletion target /usr/local/bin/spm-build is under /usr/local
+77 verbose gentlyRm vacuuming from /usr/local/bin/spm-build up to /usr/local
+78 info postuninstall spm-build@1.3.2
+79 silly gentlyRm /usr/local/lib/node_modules/spm-build is being purged from base /usr/local
+80 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/spm-build
+81 silly vacuum-fs purging /usr/local/lib/node_modules/spm-build
+82 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/spm-build/.jshintignore'
+82 error error rolling back     at Error (native)
+82 error error rolling back  { [Error: EACCES, unlink '/usr/local/lib/node_modules/spm-build/.jshintignore']
+82 error error rolling back   errno: -13,
+82 error error rolling back   code: 'EACCES',
+82 error error rolling back   path: '/usr/local/lib/node_modules/spm-build/.jshintignore' }
